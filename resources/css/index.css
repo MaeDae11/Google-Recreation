@@ -26,7 +26,7 @@ html {
 }
 
 /*google center*/
-.center {
+.center-container {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -36,6 +36,7 @@ html {
     font-family: arial,sans-serif;
     font-size: 80px;
     margin-top: 200px;
+    margin-bottom: 40px;
 }
 
 .G, .G2 {
@@ -56,10 +57,6 @@ html {
 }
 
 .search {
-    display: block;
-    text-align: center;
-    height: 44px;
-    width: 43px;
 }
 
 /*.search img {
@@ -67,18 +64,18 @@ html {
     margin-left: 90%;
     opacity: 70%;
 }*/
+
 .search-field{
     height: 44px;
     width: 484px;
     box-shadow: 0px 3px 5px #666;
 }
-/*mvp value: minimum value ?*/
+
 
 .action-buttons {
     margin-top: 20px;
     background-color: #f2f2f2;
     border: none;
     padding: 16px 8px;
-    display: none;
 }
-
+/*adds button for google search and im feeling lucky bar*/
